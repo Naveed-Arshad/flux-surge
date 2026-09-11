@@ -1,0 +1,23 @@
+{
+  "name": "flux-surge-backend",
+  "version": "1.0.0",
+  "description": "Flux Surge - Tap-to-earn game backend (Phase 1)",
+  "main": "flux-surge-backend.js",
+  "scripts": {
+    "start": "node flux-surge-backend.js",
+    "dev": "nodemon flux-surge-backend.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "pg": "^8.9.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
